@@ -8,9 +8,9 @@ const page = navLinks[3];
 // ملفات المكتبة: href = ملف الـ PDF أو صفحة، و image = صورة الغلاف (حطهم داخل public/designs)
 // إذا ما حطيت صورة اكتب image: "" ويطلع مكانها أيقونة
 const files = [
-  { name: "عمارة الساحل الشرقي", description: "دليل الطابع العمراني لمساجد الساحل الشرقي", href: "/library-east", image: "/designs/article1.jpeg" },
-  { name: "الأدلة الفنية لبناء وتطوير المساجد", description: "الأدلة والمواصفات الفنية لبناء المساجد وتطويرها", href: "/library-guides", image: "/designs/article2.jpeg" },
-  { name: "معايير واشتراطات المساجد", description: "معايير واشتراطات فرع الوزارة بالمنطقة الشرقية", href: "/library-standards", image: "/designs/article3.jpeg" },
+  { name: "عمارة الساحل الشرقي", description: "دليل الطابع العمراني لمساجد الساحل الشرقي", href: "/library-east", image: "/designs/article1.png" },
+  { name: "الأدلة الفنية لبناء وتطوير المساجد", description: "الأدلة والمواصفات الفنية لبناء المساجد وتطويرها", href: "/library-guides", image: "/designs/article2.png" },
+  { name: "معايير واشتراطات المساجد", description: "معايير واشتراطات فرع الوزارة بالمنطقة الشرقية", href: "/library-standards", image: "/designs/article3.png" },
 ];
 
 export default function Page() {
