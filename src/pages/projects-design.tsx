@@ -9,7 +9,7 @@ type Status = "done" | "current" | "next";
 const projects: Array<{ name: string; href: string; image?: string; stages: Array<{ label: string; status: Status }> }> = [
   {
     name: "جامع أمهات المؤمنين - حي النورس ",
-       href: "/designs/alnawras.pdf",
+       href: "/design-momneen",
        image: "/designs/nn.png",
     stages: [
       { label: "توقيع العقود مع التبرع", status: "done" },
@@ -23,7 +23,7 @@ const projects: Array<{ name: string; href: string; image?: string; stages: Arra
   },
   {
     name: "جامع سارة المساعد - حي غرناطة",
-    href: "/designs/saara.pdf",
+    href: "/design-sarah",
     image: "/designs/s.png",
     stages: [
        { label: "توقيع العقود مع التبرع", status: "done" },
@@ -37,7 +37,7 @@ const projects: Array<{ name: string; href: string; image?: string; stages: Arra
   },
   {
     name: "مسجد الحي العاشر - حي الضاحية ",
-    href: "/designs/he10.pdf",
+    href: "/designs-he10",
     image: "/designs/alashir-photo.png",
     stages: [
         { label: "توقيع العقود مع التبرع", status: "done" },
@@ -45,6 +45,20 @@ const projects: Array<{ name: string; href: string; image?: string; stages: Arra
       { label: "االتصاميم ", status: "current" },
       { label: "اصدار الرخص ", status: "next" },
       { label: "تسعير المقاولين", status: "next" },
+      { label: "تحليل العروض", status: "next" },
+      { label: "التعاقد مع المقاول", status: "next" },
+    ],
+  },
+  {
+    name: " مسجد واحة الشرقية في مدينة الدمام",
+    href: "/design-wahha",
+    image: "/designs/wahha.png",
+    stages: [
+        { label: "توقيع العقود مع التبرع", status: "done" },
+      { label: "تعبئة النماذج ", status: "done" },
+      { label: "االتصاميم ", status: "done" },
+      { label: "اصدار الرخص ", status: "done" },
+      { label: "تسعير المقاولين", status: "current" },
       { label: "تحليل العروض", status: "next" },
       { label: "التعاقد مع المقاول", status: "next" },
     ],
