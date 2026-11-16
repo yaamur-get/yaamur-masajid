@@ -7,11 +7,14 @@ const page = navLinks[1];
 
 // ملفات التصاميم: ضع الـ PDF والصورة في public/designs ثم انسخ سطرًا وغيّر الاسم والروابط
 const designs = [
-  { name: "مسجد الأطباء - اسكان الدمام الجنوبي ", href: "/designs/atibba.pdf", image: "/designs/atibba.png" },
-  { name: "جامع الضاحية - حي الضاحية", href: "/designs/dhi.pdf", image: "/designs/dhi.png" },
-  { name: "جامع الضباط - اسكان الدمام الشمالي ", href: "/designs/d.pdf", image: "/designs/d.png" },
-  // { name: "مسجد الا", href: "/designs/alnawras.pdf", image: "/designs/n" },
+  { name: "مسجد الأطباء - اسكان الدمام الجنوبي ", href: "/design-attiba", image: "/designs/atibba.png" },
+  { name: "جامع الضاحية - حي الضاحية", href: "/design-dhahia", image: "/designs/dhi.png" },
+  { name: "جامع الضباط - اسكان الدمام الشمالي ", href: "/design-dhobat", image: "/designs/d.png" },
+  { name: "جامع أمهات المؤمنين - حي النورس ", href: "/design-momneen", image: "/designs/nn.png" },
+  { name: "مسجد واحة الشرقية في مدينة الدمام", href: "/design-wahha", image: "/designs/wahha.png" },
+ 
 ];
+
 
 export default function Page() {
   return (

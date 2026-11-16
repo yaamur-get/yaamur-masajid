@@ -5,9 +5,9 @@ import { PageShell } from "@/components/PageShell";
 // ملفات معايير واشتراطات المساجد: href = ملف الـ PDF، و image = صورة الغلاف (حطهم داخل public/designs)
 // إذا ما حطيت صورة اكتب image: "" ويطلع مكانها أيقونة
 const files = [
-  { name: "أساسيات عند الكشف على المخططات المعمارية ", href: "/designs/lib4.pdf", image: "/designs/lib3.png" },
-  { name: "الأنظمة والمعايير والاشتراطات ", href: "/designs/lib5.pdf", image: "/designs/maair.png" },
-  { name: " انشاء المواضئ الخارجية.", href: "/designs/lib6.pdf", image: "/designs/moad.png" },
+  { name: "أساسيات إنشاء المواضئ الخارجية المستحدثة", href: "/designs/lib4.pdf", image: "/designs/lib4.png" },
+  { name: "أساسيات الكشف على المخططات المعمارية", href: "/designs/lib5.pdf", image: "/designs/lib5.png" },
+  { name: " الأنظمة والمعايير والاشتراطات لتصميم وتنسيق أراضي المساجد", href: "/designs/lib6.pdf", image: "/designs/lib6.png" },
 ];
 
 export default function Page() {

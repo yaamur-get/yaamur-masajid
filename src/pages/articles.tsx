@@ -9,8 +9,8 @@ const page = navLinks[3];
 // إذا ما حطيت صورة اكتب image: "" ويطلع مكانها أيقونة
 const files = [
   { name: "عمارة الساحل الشرقي",  href: "/library-east", image: "/designs/article1.png" },
-  { name: "الأدلة الفنية لبناء وتطوير المساجد",  href: "/library-guides", image: "/designs/article2.png" },
-  { name: "معايير واشتراطات المساجد",  href: "/library-standards", image: "/designs/article3.png" },
+  { name: "الأدلة الفنية لبناء وتطوير المساجد",  href: "/library-guides", image: "/designs/article3.png" },
+  { name: "معايير واشتراطات المساجد",  href: "/library-standards", image: "/designs/article2.png" },
   { name: "ملفات ذات علاقة بالبناء", href: "/library-masajid", image: "/designs/article3.png" },
 ];
 

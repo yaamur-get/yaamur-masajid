@@ -7,17 +7,17 @@ type Status = "done" | "current" | "next";
 // مشاريع مرحلة التصاميم: لإضافة مشروع انسخ قوسًا كاملًا { ... } وغيّر البيانات
 // حالة كل بند: "done" = منجز (أخضر)، "current" = يحدث الآن (برتقالي)، "next" = لم يبدأ (رمادي)
 const projects: Array<{ name: string; href: string; image?: string; stages: Array<{ label: string; status: Status }> }> = [
-  {
-    name: "جامع أمهات المؤمنين - حي النورس ",
-       href: "/design-momneen",
-       image: "/designs/nn.png",
+ {
+    name: " مسجد واحة الشرقية في مدينة الدمام",
+    href: "/design-wahha",
+    image: "/designs/wahha.png",
     stages: [
-      { label: "توقيع العقود مع التبرع", status: "done" },
+        { label: "توقيع العقود مع التبرع", status: "done" },
       { label: "تعبئة النماذج ", status: "done" },
       { label: "االتصاميم ", status: "done" },
       { label: "اصدار الرخص ", status: "done" },
-      { label: "تسعير المقاولين", status: "done" },
-      { label: "تحليل العروض", status: "current" },
+      { label: "تسعير المقاولين", status: "current" },
+      { label: "تحليل العروض", status: "next" },
       { label: "التعاقد مع المقاول", status: "next" },
     ],
   },
@@ -49,20 +49,21 @@ const projects: Array<{ name: string; href: string; image?: string; stages: Arra
       { label: "التعاقد مع المقاول", status: "next" },
     ],
   },
-  {
-    name: " مسجد واحة الشرقية في مدينة الدمام",
-    href: "/design-wahha",
-    image: "/designs/wahha.png",
-    stages: [
-        { label: "توقيع العقود مع التبرع", status: "done" },
-      { label: "تعبئة النماذج ", status: "done" },
-      { label: "االتصاميم ", status: "done" },
-      { label: "اصدار الرخص ", status: "done" },
-      { label: "تسعير المقاولين", status: "current" },
-      { label: "تحليل العروض", status: "next" },
-      { label: "التعاقد مع المقاول", status: "next" },
-    ],
-  },
+ 
+  //   {
+  //   name: "جامع أمهات المؤمنين - حي النورس ",
+  //      href: "/design-momneen",
+  //      image: "/designs/nn.png",
+  //   stages: [
+  //     { label: "توقيع العقود مع التبرع", status: "done" },
+  //     { label: "تعبئة النماذج ", status: "done" },
+  //     { label: "االتصاميم ", status: "done" },
+  //     { label: "اصدار الرخص ", status: "done" },
+  //     { label: "تسعير المقاولين", status: "done" },
+  //     { label: "تحليل العروض", status: "current" },
+  //     { label: "التعاقد مع المقاول", status: "next" },
+  //   ],
+  // },
 ];
 
 const pillStyle: Record<Status, string> = {
