@@ -16,17 +16,14 @@ const map = "https://maps.app.goo.gl/51qyX7BAjEPRNxLFA?g_st=com.google.maps.prev
 // لنقل صورة من قسم لقسم: انقل سطرها. إذا قائمة "inside" فاضية يختفي زر "من الداخل"
 const images: Record<View, string[]> = {
   outside: [
-    "/designs/momneen/1.jpg",
-    "/designs/momneen/2.jpg",
-    "/designs/momneen/3.jpg",
-    "/designs/momneen/5.jpg",
-    "/designs/momneen/6.jpg",
-    "/designs/momneen/8.jpg",
-    "/designs/momneen/10.jpg",
-    "/designs/momneen/12.jpg",
-    "/designs/momneen/13.jpg",
-    "/designs/momneen/16.jpg",
-    "/designs/momneen/17.jpg",
+    "/designs/wahat1.png",
+    "/designs/wahat2.png",
+    "/designs/wahat4.png",
+    "/designs/wahat5.png",
+    "/designs/wahat6.png",
+    "/designs/wahat7.png",
+    "/designs/wahat8.png",
+  
   ],
   inside: [
     "/designs/momneen/1in.jpg",

@@ -10,8 +10,8 @@ const designs = [
   { name: "مسجد الأطباء - اسكان الدمام الجنوبي ", href: "/design-attiba", image: "/designs/atibba.png" },
   { name: "جامع الضاحية - حي الضاحية", href: "/design-dhahia", image: "/designs/dhi.png" },
   { name: "جامع الضباط - اسكان الدمام الشمالي ", href: "/design-dhobat", image: "/designs/d.png" },
-  { name: "جامع أمهات المؤمنين - حي النورس ", href: "/design-momneen", image: "/designs/nn.png" },
-  { name: "مسجد واحة الشرقية في مدينة الدمام", href: "/design-wahha", image: "/designs/wahha.png" },
+  { name: "جامع أمهات المؤمنين - حي النورس ", href: "/design-momneen", image: "/designs/am.png" },
+  { name: "مسجد واحة الشرقية في مدينة الدمام", href: "/design-wahha", image: "/designs/wahat1.png" },
  
 ];
 

@@ -7,6 +7,7 @@ import { PageShell } from "@/components/PageShell";
 const files = [
   { name: "معايير تصميم المساجد  - وقف الموسى", href: "/designs/maairr.pdf", image: "/designs/files-maair.png" },
   { name: "دليل الجامع القدوة - مؤسسة العجيمي", href: "/designs/jaamiaa.pdf", image: "/designs/jamiaa.png" },
+  { name: "دليل بناء المساجد - الكود السعودي", href: "/designs/dalell.pdf", image: "/designs/dallel.png" },
   
 ];
 
@@ -17,7 +18,7 @@ export default function Page() {
         <ArrowRight className="w-4 h-4" />
         العودة للمكتبة
       </a>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
         {files.map(({ name, href, image }) => (
           <a
             key={href}

@@ -7,7 +7,7 @@ const mosques = [
   { name: "مسجد الأطباء - اسكان الدمام الجنوبي", href: "https://yaamur-get.github.io/bathD/", image: "/designs/atibba.png" },
   { name: "جامع الضباط - اسكان الدمام الشمالي", href: "https://yaamur-get.github.io/thbat/", image: "/designs/d.png" },
   { name: "جامع الضاحية - حي الضاحية", href: "https://yaamur-get.github.io/bathDhi/", image: "/designs/dhi.png" },
-  { name: "جامع أمهات المؤمنين - حي النورس ", href: "https://yaamur-get.github.io/bathDhi/", image: "/designs/nn.png" },
+  { name: "جامع أمهات المؤمنين - حي النورس ", href: "https://yaamur-get.github.io/bathNawras", image: "/designs/am.png" },
 ];
 
  

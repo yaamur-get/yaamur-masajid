@@ -7,7 +7,7 @@ type Status = "done" | "current" | "next";
 type View = "outside" | "inside";
 
 // ===== بيانات الصفحة: عدّل هنا فقط =====
-const name = "جامع الضباط - اسكان الدمام الشمالي ";
+const name = "جامع الضاحية - حي الضاحية  ";
 const tag = "مرحلة التصاميم";
 const map = "https://drive.google.com/drive/folders/1Jwmxz0DwUmQzlezt01yZNRlSM7PVE1-X?usp=sharing"
 
@@ -16,27 +16,19 @@ const map = "https://drive.google.com/drive/folders/1Jwmxz0DwUmQzlezt01yZNRlSM7P
 // لنقل صورة من قسم لقسم: انقل سطرها. إذا قائمة "inside" فاضية يختفي زر "من الداخل"
 const images: Record<View, string[]> = {
   outside: [
-    "/designs/momneen/1.jpg",
-    "/designs/momneen/2.jpg",
-    "/designs/momneen/3.jpg",
-    "/designs/momneen/5.jpg",
-    "/designs/momneen/6.jpg",
-    "/designs/momneen/8.jpg",
-    "/designs/momneen/10.jpg",
-    "/designs/momneen/12.jpg",
-    "/designs/momneen/13.jpg",
-    "/designs/momneen/16.jpg",
-    "/designs/momneen/17.jpg",
+    "/designs/dha1.png",
+    "/designs/dha2.png",
+    "/designs/dha3.png",
+    "/designs/dha4.png",
+    "/designs/dha5.png",
+    "/designs/dha6.png",
   ],
   inside: [
-    "/designs/momneen/1in.jpg",
-    "/designs/momneen/2in.jpg",
-    "/designs/momneen/3in.jpg",
-    "/designs/momneen/4in.jpg",
-    "/designs/momneen/5in.jpg",
-    "/designs/momneen/6in.jpg",
-    "/designs/momneen/7in.jpg",
-    "/designs/momneen/8in.jpg",
+     "/designs/dhaa1.png",
+    "/designs/dhaa2.png",
+    "/designs/dhaa3.png",
+    "/designs/dhaa4.png",
+    "/designs/dhaa5.png",
   ],
 };
 
